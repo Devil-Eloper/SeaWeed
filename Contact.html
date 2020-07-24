@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Contact deets</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        hr{
+            width: 90%;
+        }
+    </style>
+  </head>
+  <body>
+    <h2>Contact Details</h2>
+    <hr />
+    <table border="3">
+      <thead>
+        <tr>
+          <th>Phone Number</th>
+          <th>Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>0b110110110100110010100110100010110</td>
+          <td>
+            <strong>sendmeyourmale@gmail.com, trytomaleme@gmail.com</strong>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <hr />
+
+    <form
+      action="mailto:inboxjalaj@gmail.com"
+      method="POST"
+      enctype="text/plain"
+    >
+      <!--Input type tags can be created outside of the form as well. If you keep it outside, then their values will not
+    be submitted with the form as well-->
+      <label for="">Your Name:</label>
+      <input type="text" name="yourName" /><br />
+      <label for="">Your Email:</label>
+      <input type="email" name="yourEmail" id="" /><br />
+      <label for="">Your Message:</label><br />
+      <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br />
+      <input type="submit" />
+    </form>
+  </body>
+</html>
